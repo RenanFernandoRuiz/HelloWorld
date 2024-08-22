@@ -14,11 +14,11 @@ function Header(){
             <a href="#">Desenvolvimento</a>
             <a href="#">Contato</a>
            
-            </div>
-
            <div className={styles.idioma}>
            <a href="#">Idioma</a>
            </div>
+            </div>
+
             
         </nav>
         </header>
