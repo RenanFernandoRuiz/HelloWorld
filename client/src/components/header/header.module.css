@@ -9,6 +9,8 @@
     font-size: 1.5rem;
     align-items: center;
     right:0 ;
+   
+   
 }
 
 
@@ -44,8 +46,7 @@
     margin-left: 4rem;
 }
 
-.idioma a{
-}
+
 
 .idioma img{
     width: 3rem;
@@ -63,7 +64,12 @@
 .login button{
     background: #B6CFFF;
     max-height: 3rem;
+    font-family: Karantina;
+
+    
 }
 .login button a{
     color: #6562FF;
+    border-radius: 4rem;
+    
 }
