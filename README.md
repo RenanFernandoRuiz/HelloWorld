@@ -25,6 +25,14 @@ Acessibilidade: A abordagem gradual e o suporte da IA tornam o aprendizado da pr
 
 Transformar o aprendizado da programação em uma jornada divertida, desafiadora e gratificante, democratizando o acesso ao conhecimento e abrindo portas para novas oportunidades e inovação.
 
+## AUTORES:
+
+PIETRO HENRIQUE VITO
+RENAN FERNANDO RUIZ
+ANNA LETICIA FLOR GOUVEIA
+MIGUEL RODRIGUES DE OLIVEIRA
+RUAN SILVA RABAQUIM
+
 ### 🔗 Links
 
 TRELLO
@@ -35,6 +43,18 @@ FIGMA
 
 https://www.figma.com/design/m3NTTZJqp3OXDd3J9KJDER/Untitled?node-id=0-1&t=CSCqejxcMrmwR5Ee-0
 
-GITHUB
+GITHUB PROJETO
 
 https://github.com/RenanFernandoRuiz/HelloWorld.git
+
+GITHUB AUTORES
+
+https://github.com/RenanFernandoRuiz
+
+https://github.com/PietroDub
+
+https://github.com/Betzfer
+
+https://github.com/annaletyflor
+
+https://github.com/annaletyflor
