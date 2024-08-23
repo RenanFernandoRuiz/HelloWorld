@@ -1,4 +1,6 @@
-import Container from "./components/container/container";
+import Container from "./components/container/Container";
+
+import "./App.css"
 import Header from "./components/header/header";
 
 
