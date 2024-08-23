@@ -25,6 +25,14 @@ Acessibilidade: A abordagem gradual e o suporte da IA tornam o aprendizado da pr
 
 Transformar o aprendizado da programação em uma jornada divertida, desafiadora e gratificante, democratizando o acesso ao conhecimento e abrindo portas para novas oportunidades e inovação.
 
+## AUTORES:
+
+Pietro Henrique Vito
+Anna Letícia Flor Gouveia 
+Miguel Rodrigues de Oliveira
+Ruan Silva Rabaquim
+Renan Fernando Ruiz
+
 ### 🔗 Links
 
 TRELLO
