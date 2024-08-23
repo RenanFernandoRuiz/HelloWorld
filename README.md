@@ -27,11 +27,11 @@ Transformar o aprendizado da programação em uma jornada divertida, desafiadora
 
 ## AUTORES:
 
-Pietro Henrique Vito
-Anna Letícia Flor Gouveia 
-Miguel Rodrigues de Oliveira
-Ruan Silva Rabaquim
-Renan Fernando Ruiz
+PIETRO HENRIQUE VITO
+RENAN FERNANDO RUIZ
+ANNA LETICIA FLOR GOUVEIA
+MIGUEL RODRIGUES DE OLIVEIRA
+RUAN SILVA RABAQUIM
 
 ### 🔗 Links
 
@@ -43,6 +43,18 @@ FIGMA
 
 https://www.figma.com/design/m3NTTZJqp3OXDd3J9KJDER/Untitled?node-id=0-1&t=CSCqejxcMrmwR5Ee-0
 
-GITHUB
+GITHUB PROJETO
 
 https://github.com/RenanFernandoRuiz/HelloWorld.git
+
+GITHUB AUTORES
+
+https://github.com/RenanFernandoRuiz
+
+https://github.com/PietroDub
+
+https://github.com/Betzfer
+
+https://github.com/annaletyflor
+
+https://github.com/annaletyflor
