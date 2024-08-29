@@ -1,9 +1,27 @@
-import React from 'react'
+import React from "react";
+import styles from "./footer.module.css"
 
-export const footer = () => {
+export const Footer = () => {
   return (
-    <div>
-        <h1>hello</h1>
+    <div className={styles.footer}>
+      <h4>Problemas? Contate-nos:</h4>
+
+      <div>
+        <h4>helloworld@gmail.com</h4>
+        <h4>(14) 4002-8922    Yudi PS2</h4>
+      </div>
+
+      <ion-icon name="logo-github"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+
+      <div>
+        <h4>Se copiar nois vai saber</h4>
+        <h4>Plagio é crime comédia</h4>
+      </div>
+
+      <h4>#SemCopiaComedia</h4>
+
     </div>
-  )
-}
+  );
+};

@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  position: absolute;
+  background-color: #625EFB;
+  align-items: center;
+  justify-content: space-evenly;
+  right: 0;
+  left: 0;
+}
+ion-icon{
+    font-size: 44px;
+}
+
