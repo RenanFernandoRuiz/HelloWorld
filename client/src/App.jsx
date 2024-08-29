@@ -1,15 +1,13 @@
-import Container from "./components/container/Container";
-
-import "./App.css"
+import "./App.css";
+import Container from "./components/container/container";
 import Header from "./components/header/header";
 
-
-function App () {
-  return(
+function App() {
+  return (
     <>
-    <Header/>
-    <Container/>
+      <Header />
+      <Container />
     </>
-  )
+  );
 }
 export default App;
