@@ -1,0 +1,29 @@
+.tudo {
+  background: #b6cfff;
+  height: 100vh;
+  margin-top: -12em;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 74em;
+}
+.tudo button {
+  margin: 4em;
+  height: 5em;
+  width: 15em;
+  background: #b6cfff;
+  border-color: #2f2d97;
+  border-width: 2px;
+  color: #625efb;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: rgba(2, 3, 3, 0.2) 0px 8px 24px;
+}
+
+.button2 button {
+  background: #625efb;
+  color: white;
+  font-weight: bold;
+}
