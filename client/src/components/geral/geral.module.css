@@ -1,14 +1,13 @@
 .tudo {
   background: var(--main-color);
-  margin-top: -12em;
+  margin-top: -14em;
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: center;
-  width: 105.3%;
-  margin-left: -2.6%;
+  width: 100%;
   margin-bottom: 0;
+  right: 0;
+  left: 0;
 }
 .tudo button {
   margin: 4em;
