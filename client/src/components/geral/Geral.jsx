@@ -8,6 +8,7 @@ const Geral = () => {
       <div className={styles.button2}>
         <button>COMECE AGORA!</button>
       </div>
+
     </div>
   );
 };

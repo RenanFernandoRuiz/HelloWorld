@@ -58,9 +58,20 @@
 .login button {
   background: #b6cfff;
   max-height: 3rem;
-  font-family: Karantina;
+  align-items: center;
+  transition: 0.5s ease;
 }
+
+.login button:hover {
+  background: var(--cor1);
+  color: var(--main-color);
+}
+
 .login button a {
   color: #6562ff;
   border-radius: 4rem;
+  font-family: Karantina;
+}
+.login button a:hover {
+  color: var(--main-color);
 }
