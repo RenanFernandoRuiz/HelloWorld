@@ -1,8 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 90vh;
+  margin-left: -10em;
+  background-color: #6460ff;
+  background-image: linear-gradient(
+    160deg,
+    #6460ff 0%,
+    #7576ff 50%,
+    #b6cfff 100%
+  );
+}
 .all {
+  right: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: red;
+  background: #6562ff;
   height: 100vh;
-  width: 100%;
+}
+.all img {
+  border-radius: 2em;
+  margin: 3em;
+}
+.all h2 {
+  margin: 1em;
 }
