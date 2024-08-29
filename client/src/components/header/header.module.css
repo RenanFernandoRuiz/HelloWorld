@@ -1,75 +1,66 @@
-.header{
-    background-color: #6562FF;
-    border-bottom: 2px solid;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-    align-items: center;
-    right:0 ;
-   
-   
-}
+.header {
+  background-color: #6562ff;
 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  align-items: center;
+  right: 0;
+}
 
 .header a {
-    text-decoration: none;
-    color:white;
-    padding-inline: 1rem;
-    font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  padding-inline: 1rem;
+  font-size: 1.3rem;
 }
 
-.navtop{
-    display: flex;
-    flex-direction: row;
-    max-height: 6rem;
+.navtop {
+  display: flex;
+  flex-direction: row;
+  max-height: 6rem;
 }
-.navtop a{
-    align-content: center;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
+.navtop a {
+  align-content: center;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
 }
-.navtop img{
-    width: 20%;
-    padding: 0;
-}
-
-.idioma{
-    min-height: 3rem;
-    align-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 4rem;
+.navtop img {
+  width: 20%;
+  padding: 0;
 }
 
-
-
-.idioma img{
-    width: 3rem;
-    margin-bottom: -0.1rem;
+.idioma {
+  min-height: 3rem;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 4rem;
 }
 
-.login{
-    align-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding-left: 4rem;
-    
+.idioma img {
+  width: 3rem;
+  margin-bottom: -0.1rem;
 }
-.login button{
-    background: #B6CFFF;
-    max-height: 3rem;
-    font-family: Karantina;
 
-    
+.login {
+  align-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 4rem;
 }
-.login button a{
-    color: #6562FF;
-    border-radius: 4rem;
-    
+.login button {
+  background: #b6cfff;
+  max-height: 3rem;
+  font-family: Karantina;
+}
+.login button a {
+  color: #6562ff;
+  border-radius: 4rem;
 }
