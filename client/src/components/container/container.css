@@ -7,9 +7,6 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  margin-left: -2em;
-  height: 95vh;
-  margin-top: 6em;
   background-color: #6460ff;
   background-image: linear-gradient(
     160deg,
@@ -28,15 +25,12 @@ body {
   padding-bottom: 1em;
 }
 .all {
-  right: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   background: #6562ff;
   height: 80vh;
   width: 100%;
-  margin-right: -5.4vh;
-  margin-top: -2em;
 }
 .all img {
   border-radius: 2em;

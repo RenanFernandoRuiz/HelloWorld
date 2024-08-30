@@ -4,16 +4,25 @@ import brasil from "../../assets/brasil.svg";
 
 function Header() {
   return (
-    <header className="header row fixed-top">
+    <header className="header row fixed-top col-12 m-0 mb-0 ">
       <nav className="d-flex justify-content-between">
-        <div className="navtop">
-          <img src={logo} alt="Logo Hello World" />
-
-          <a href="#">Hello World</a>
-          <a href="#">Cursos</a>
-          <a href="#">Sobre</a>
-          <a href="#">Desenvolvimento</a>
-          <a href="#">Contato</a>
+        <img src={logo} alt="Logo Hello World" />
+        <div className="navtop col-md-6">
+          <a className="d-none d-lg-block" href="#">
+            Hello World
+          </a>
+          <a className="" href="#">
+            Cursos
+          </a>
+          <a className="d-none d-lg-block" href="#">
+            Sobre
+          </a>
+          <a className="" href="#">
+            Desenvolvimento
+          </a>
+          <a className="d-none d-lg-block" href="#">
+            Contato
+          </a>
         </div>
 
         <div className="d-flex pe-5 gap-4">
