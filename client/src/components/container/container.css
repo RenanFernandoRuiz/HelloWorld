@@ -3,6 +3,7 @@
   width: 100%;
 }
 .sidebar {
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   background-color: #6460ff;
