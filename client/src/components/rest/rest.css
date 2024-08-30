@@ -6,3 +6,14 @@
   background: var(--main-color);
   width: 100%;
 }
+.restexto {
+  display: flex; /* Define o contêiner como flexível */
+  justify-content: center; /* Alinha o item horizontalmente no centro */
+  align-items: center; /* Alinha o item verticalmente no centro */
+  flex-direction: column;
+}
+.restexto h2,
+h3 {
+  color: #ffff;
+  margin: 0; /* Remove a margem padrão do <h2> */
+}
