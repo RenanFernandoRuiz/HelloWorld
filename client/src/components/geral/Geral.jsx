@@ -1,14 +1,13 @@
-import styles from "./geral.module.css";
+import "./geral.css";
 
 const Geral = () => {
   return (
-    <div className={styles.tudo}>
+    <div className="tudo bg-danger">
       <button>Já tenho uma conta</button>
 
-      <div className={styles.button2}>
+      <div className="styles.button">
         <button>COMECE AGORA!</button>
       </div>
-
     </div>
   );
 };
