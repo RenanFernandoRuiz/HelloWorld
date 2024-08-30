@@ -1,14 +1,14 @@
 .header {
   background-color: #6562ff;
 
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   font-size: 1.5rem;
   align-items: center;
-  right: 0;
+  right: 0; */
 }
 
 .header a {
@@ -47,31 +47,34 @@
   width: 3rem;
   margin-bottom: -0.1rem;
 }
-
+/* 
 .login {
   align-content: center;
   display: flex;
   align-items: center;
   flex-direction: row;
   padding-left: 4rem;
-}
-.login button {
+} */
+.login a {
   background: #b6cfff;
   max-height: 3rem;
   align-items: center;
+}
+
+.login a:hover {
+  /* background: var(--cor1);*/
+  color: white !important;
   transition: 0.5s ease;
 }
 
-.login button:hover {
-  background: var(--cor1);
-  color: var(--main-color);
-}
-
-.login button a {
+.login a {
   color: #6562ff;
-  border-radius: 4rem;
-  font-family: Karantina;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: bold;
+  /* border-radius: 4rem; */
+  /* font-family: Karantina; */
 }
-.login button a:hover {
+/* .login button a:hover {
   color: var(--main-color);
-}
+} */
