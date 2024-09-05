@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   white-space: nowrap;
+  font-size: 2em;
 }
 .navtop img {
   width: 20%;
@@ -43,9 +44,12 @@
   flex-direction: row;
   margin-left: 4rem;
 }
+.idioma a {
+  font-size: 2em;
+}
 
 .idioma img {
-  width: 3rem;
+  width: 5rem;
   margin-bottom: -0.1rem;
 }
 /* 

@@ -19,10 +19,10 @@
   color: aliceblue;
 }
 .sidebar img {
-  width: 3em;
+  width: 4em;
   margin-right: 2em;
   margin-left: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 .all {
   display: flex;

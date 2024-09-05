@@ -1,0 +1,18 @@
+.pe {
+  gap: 5em;
+  align-items: center;
+  min-height: 10em;
+  background: #625efb;
+  color: #ffffff;
+}
+.logo {
+  gap: 2em;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: #ffffff;
+}
+ion-icon {
+  font-size: 4em;
+}

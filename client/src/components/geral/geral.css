@@ -24,6 +24,7 @@
   box-shadow: rgba(2, 3, 3, 0.2) 0px 8px 24px;
   transition: 0.5s ease;
 }
+
 .sla {
   display: flex;
   margin-top: -8em;
@@ -33,14 +34,14 @@
   color: var(--main-color);
 }
 
-.button2 button {
+.button button {
   background: #625efb;
   color: white;
   font-weight: bold;
   transition: 0.5s ease;
 }
 
-.button2 button:hover {
+.button button:hover {
   background: var(--main-color);
   color: var(--cor1);
 }

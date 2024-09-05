@@ -6,7 +6,7 @@ const Geral = () => {
       <div className="sla">
         <button>Já tenho uma conta</button>
 
-        <div className="styles.button">
+        <div className="button">
           <button>COMECE AGORA!</button>
         </div>
       </div>
