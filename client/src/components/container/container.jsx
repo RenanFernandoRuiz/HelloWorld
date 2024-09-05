@@ -32,10 +32,10 @@ const Container = () => {
               <img src={image8} alt="8" href="#" />
               <img src={image9} alt="9" href="#" />
             </div>
-            <div className="col-12 col-md-6 bg-success quadro">
+            <div className="col-12 col-md-6  quadro">
               <img src={quadro} alt="tela" />
             </div>
-            <div className="col-12 col-md bg-info jeito">
+            <div className="col-12 col-md  jeito">
               <h2>
                 O jeito grátis, divertido e eficaz de aprender programação!
               </h2>

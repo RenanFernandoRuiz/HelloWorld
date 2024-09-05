@@ -7,12 +7,12 @@ import Rest from "./components/rest/Rest";
 
 function App() {
   return (
-    <>
+    <div className="appsuper">
       <Header />
       <Container />
       <Geral />
       <Rest />
-    </>
+    </div>
   );
 }
 export default App;
