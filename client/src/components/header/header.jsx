@@ -5,7 +5,7 @@ import brasil from "../../assets/brasil.svg";
 function Header() {
   return (
     <header className="header row fixed-top col-12 m-0 mb-0 ">
-      <nav className="d-flex justify-content-between align-items-center">
+      <nav className="d-flex justify-content-between align-items-center ">
         <img src={logo} alt="Logo Hello World" />
         <div className="navtop col-md-6">
           <a className="d-none d-lg-block" href="#">
