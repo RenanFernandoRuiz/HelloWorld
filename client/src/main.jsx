@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./pages/Home.jsx";
 import Contato from "./pages/Contato.jsx";
+import Cursos from "./pages/Cursos.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       { path: "/contato", element: <Contato /> },
       { path: "/sobre", element: <Contato /> },
       { path: "/desenvolvimento", element: <Contato /> },
-      { path: "/cursos", element: <Contato /> },
+      { path: "/cursos", element: <Cursos /> },
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],

@@ -1,0 +1,130 @@
+.barralatera {
+  height: 80em;
+  margin-bottom: 10em;
+}
+.TUFO {
+  display: flex;
+}
+
+.allt {
+  position: relative;
+  margin-top: 10em;
+  gap: 5em;
+  height: 25em;
+  margin-bottom: 1em;
+}
+.texxtinho {
+  position: absolute;
+  bottom: 0;
+  height: 10em;
+  width: 33.3%;
+  background: #625efb;
+  border-radius: 0 0 2em 2em;
+}
+.C1 {
+  margin-left: 5em;
+  border-radius: 3em;
+}
+
+.C1 img {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.C2 {
+  border-radius: 3em;
+}
+
+.C2 img {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.C3 {
+  border-radius: 3em;
+}
+
+.C4 {
+  margin-left: 5em;
+  border-radius: 3em;
+}
+
+.C5 {
+  border-radius: 3em;
+}
+
+.C6 {
+  border-radius: 3em;
+}
+
+.C7 {
+  border-radius: 3em;
+  margin-left: 5em;
+}
+
+.C8 {
+  border-radius: 3em;
+}
+
+.C9 {
+  border-radius: 3em;
+}
+
+.barralatera img {
+  width: 4em;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+.barralatera {
+  padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+}
+.barralatera p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.img1 {
+  align-items: center;
+}
+
+.img2 {
+  align-items: center;
+}
+
+.img3 {
+  align-items: center;
+}
+
+.img4 {
+  align-items: center;
+}
+
+.img5 {
+  align-items: center;
+}
+
+.img6 {
+  align-items: center;
+}
+
+.img7 {
+  align-items: center;
+}
+
+.img8 {
+  align-items: center;
+}
+
+.img9 {
+  align-items: center;
+}
+.Lingua {
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
