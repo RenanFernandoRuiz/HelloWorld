@@ -1,7 +1,7 @@
 import "./rest.css";
-import sim from "../../assets/sim.svg";
-import leptop from "../../assets/leptop.svg";
-import celular from "../../assets/celular.svg";
+import sim from "../../../assets/sim.svg";
+import leptop from "../../../assets/leptop.svg";
+import celular from "../../../assets/celular.svg";
 
 const Rest = () => {
   return (

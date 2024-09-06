@@ -1,11 +1,31 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+import Home from "./pages/Home.jsx";
+import Contato from "./pages/Contato.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    // errorElement: <PaginaErro/>,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/contato", element: <Contato /> },
+      { path: "/sobre", element: <Contato /> },
+      { path: "/desenvolvimento", element: <Contato /> },
+      { path: "/cursos", element: <Contato /> },
+      // { path: "contact", element: <Contact /> },
+      // { path: "contact/:id", element: <ContactDetails /> },
+    ],
+  },
+]);
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
