@@ -1,7 +1,7 @@
 import "./aboutUp.css"
 import {logo} from "../../../assets/logo.svg"
 
-const aboutUp = () => {
+const AboutUp = () => {
     return (
         <div className="col-12 bg-info">
             <h2>Sobre o Jogo</h2>
@@ -25,4 +25,4 @@ const aboutUp = () => {
     
 }
 
-export default  aboutUp
+export default  AboutUp

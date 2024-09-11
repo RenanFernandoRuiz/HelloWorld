@@ -1,6 +1,6 @@
 import "./about2.css"
 
-const aboutUp = () => {
+const About2 = () => {
     return (
         <div className="roma col-12 d-flex">
             <h1>Sobre o jogo</h1>
@@ -14,4 +14,4 @@ const aboutUp = () => {
     
 }
 
-export default  aboutUp
+export default  About2
