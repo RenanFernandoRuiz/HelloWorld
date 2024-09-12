@@ -1,0 +1,61 @@
+.Headev {
+    background-color: #6e85e2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Headev ion-icon {
+    color: white;
+    font-size: 2em;
+  }
+  
+  .Headev h1 {
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .fundin {
+    background-color: #bce0fd;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: #6e85e2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .container img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+  }
+  
+  .direito {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .direito h1 {
+    font-size: 1.2em;
+  }
+  
+  .direito h2 {
+    font-size: 0.9em;
+  }
+  
+  .direito button {
+    background-color: #4263eb;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }

@@ -2,6 +2,8 @@
   background-color: #6562ff;
   align-items: center;
   height: 135px;
+  max-height: 6rem;
+
 
   /* position: fixed; */
   /* top: 0;
@@ -31,8 +33,8 @@
   white-space: nowrap;
   font-size: 2em;
 }
-.navtop img {
-  width: 20%;
+.header img {
+  width: 6em;
   padding: 0;
 }
 

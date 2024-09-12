@@ -1,0 +1,34 @@
+.roma {
+  background-color: #bce0fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.roma h1 {
+  color: #363636;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  background-color: #6e85e2;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: justify;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.roma button {
+  background-color: #4263eb;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  cursor: pointer;
+}

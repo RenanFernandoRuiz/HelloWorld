@@ -4,10 +4,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Contatos from "./pages/Contatos.jsx";
 import Home from "./pages/Home.jsx";
-import Contato from "./pages/Contatos.jsx";
-import Cursos from "./pages/Cursos.jsx";
+import Sobre from "./pages/Sobre.jsx";
+import Desenvolv from "./pages/Desenvolv.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -16,10 +17,10 @@ const router = createBrowserRouter([
     // errorElement: <PaginaErro/>,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/contato", element: <Contato /> },
-      { path: "/sobre", element: <Contato /> },
-      { path: "/desenvolvimento", element: <Contato /> },
-      { path: "/cursos", element: <Cursos /> },
+      { path: "/contato", element: <Contatos/> },
+      { path: "/sobre", element: <Sobre /> },
+      { path: "/desenvolvimento", element: <Desenvolv /> },
+      { path: "/cursos", element: <Contatos /> },
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],
