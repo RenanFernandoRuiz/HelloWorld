@@ -8,7 +8,7 @@ import Contatos from "./pages/Contatos.jsx";
 import Home from "./pages/Home.jsx";
 import Sobre from "./pages/Sobre.jsx";
 import Desenvolv from "./pages/Desenvolv.jsx";
-
+import Curso from "./pages/Curso.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,10 +17,10 @@ const router = createBrowserRouter([
     // errorElement: <PaginaErro/>,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/contato", element: <Contatos/> },
+      { path: "/contato", element: <Contatos /> },
       { path: "/sobre", element: <Sobre /> },
       { path: "/desenvolvimento", element: <Desenvolv /> },
-      { path: "/cursos", element: <Contatos /> },
+      { path: "/cursos", element: <Curso /> },
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],
