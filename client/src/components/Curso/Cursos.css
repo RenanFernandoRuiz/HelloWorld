@@ -1,6 +1,10 @@
 .barralatera {
   height: 80em;
   margin-bottom: 10em;
+  background: white;
+}
+.barralatera p {
+  color: black;
 }
 .TUFO {
   display: flex;
@@ -23,7 +27,7 @@
 }
 .C1 {
   margin-left: 5em;
-  border-radius: 3em;
+  border-radius: 4em;
 }
 
 .C1 img {
@@ -32,7 +36,7 @@
 }
 
 .C2 {
-  border-radius: 3em;
+  border-radius: 4em;
 }
 
 .C2 img {
@@ -41,33 +45,68 @@
 }
 
 .C3 {
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C3 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .C4 {
   margin-left: 5em;
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C4 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .C5 {
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C5 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .C6 {
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C6 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .C7 {
-  border-radius: 3em;
+  border-radius: 4em;
   margin-left: 5em;
 }
 
+.C7 img {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
 .C8 {
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C8 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .C9 {
-  border-radius: 3em;
+  border-radius: 4em;
+}
+
+.C9 img {
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .barralatera img {

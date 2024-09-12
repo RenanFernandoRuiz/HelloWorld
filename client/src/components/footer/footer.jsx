@@ -28,8 +28,6 @@ const Footer = () => {
         </a>
       </div>
 
-     
-
       <h3>#helloworld</h3>
     </div>
   );

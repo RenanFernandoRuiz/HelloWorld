@@ -11,12 +11,19 @@ import image8 from "/img/image8.svg";
 import image9 from "/img/image9.svg";
 import html from "/img/html.svg";
 import css from "/img/css.svg";
+import javascript from "/img/javascript.svg";
+import react from "/img/react.svg";
+import csharp from "/img/csharp.svg";
+import java from "/img/java.svg";
+import python from "/img/python.svg";
+import php from  "/img/php.svg";
+import cmais from "/img/cmais.svg";
 
 const Cursos = () => {
   return (
     <div className="every p-0 col-12">
       <div className=" principal d-flex">
-        <div className="barralatera bg-black col-2 text-white d-flex">
+        <div className="barralatera col-2 text-white d-flex">
           <div className="img1 d-flex">
             <img src={image1} alt="1" href="#" />
             <p>HTML:5</p>
@@ -87,7 +94,7 @@ const Cursos = () => {
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C3 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={javascript} />
               <div className="texxtinho">
                 <h2>JavaScript</h2>
               </div>
@@ -97,21 +104,21 @@ const Cursos = () => {
           {/* ------------------------------------------------------------------------------------------------------ */}
           <div className="allt d-flex col-10">
             <div className="C4 bg-success col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={react} />
               <div className="texxtinho">
                 <h2>React</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C5 bg-danger col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={csharp} />
               <div className="texxtinho">
                 <h2>C#</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C6 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={java} />
               <div className="texxtinho">
                 <h2>Java</h2>
               </div>
@@ -121,21 +128,21 @@ const Cursos = () => {
           {/* ------------------------------------------------------------------------------------------------------ */}
           <div className="allt d-flex col-10">
             <div className="C7 bg-success col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={python} />
               <div className="texxtinho">
                 <h2>Python</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C8 bg-danger col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={php}/>
               <div className="texxtinho">
                 <h2>PHP</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C9 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img></img>
+              <img src={cmais}/>
               <div className="texxtinho">
                 <h2>C++</h2>
               </div>

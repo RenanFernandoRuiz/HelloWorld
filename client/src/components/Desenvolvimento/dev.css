@@ -1,61 +1,87 @@
 .Headev {
-    background-color: #6e85e2;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .Headev ion-icon {
-    color: white;
-    font-size: 2em;
-  }
-  
-  .Headev h1 {
-    color: white;
-    margin-left: 20px;
-  }
-  
-  .fundin {
-    background-color: #bce0fd;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .container {
-    background-color: #6e85e2;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .container img {
-    width: 200px;
-    height: 150px;
-    border-radius: 15px;
-  }
-  
-  .direito {
-    margin-left: 20px;
-    color: white;
-  }
-  
-  .direito h1 {
-    font-size: 1.2em;
-  }
-  
-  .direito h2 {
-    font-size: 0.9em;
-  }
-  
-  .direito button {
-    background-color: #4263eb;
-    color: white;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
+  background-color: #625efb;
+  height: 9em;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 05em;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.gera {
+  width: 100%;
+  height: 100%;
+}
+.Headev ion-icon {
+  color: white;
+  font-size: 2em;
+}
+
+.Headev h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 50px;
+}
+.fundigera {
+  margin-top: 2em;
+}
+.fundin {
+  background-color: #ac91ff;
+  padding: 20px 0;
+  display: flex;
+  height: 25em;
+  justify-content: center;
+}
+.fundin2 {
+  background-color: #ac91ff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+.fundin3 {
+  background-color: #ac91ff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.container {
+  background-color: #625efb;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.container img {
+  width: 20em;
+  height: 20em;
+  border-radius: 15px;
+}
+
+.direito {
+  margin-left: 20px;
+  color: white;
+}
+
+.direito h1 {
+  font-size: 2em;
+}
+
+.direito h2 {
+  font-size: 1.5em;
+}
+
+.direito button {
+  background-color: #ac91ff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 5em;
+  width: 15em;
+}
