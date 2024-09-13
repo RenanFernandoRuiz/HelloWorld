@@ -16,6 +16,7 @@
   margin-bottom: 20px;
 }
 .guto {
+  margin-top: -20em;
 }
 .texto {
   text-align: center;
@@ -24,21 +25,24 @@
 
 .texto h1 {
   font-size: 6em;
-  color: #363636;
+  color: #4263eb;
+  font-weight: 700;
 }
 
 .texto h2 {
-  font-size: 1.5em;
-  color: #363636;
+  font-size: 3em;
+  color: #4263eb;
+  margin-bottom: 2em;
 }
 
 .boxlog {
-  background-color: #6e85e2;
+  background-color: #4263eb;
   padding: 30px;
-  border-radius: 15px;
+  border-radius: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto; /* Center the div horizontally */
 }
 
 .boxlog h1 {
@@ -48,11 +52,15 @@
 }
 
 .log {
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  gap: 10px;
+  width: 80%;
+  gap: 2em;
   margin-bottom: 20px;
+}
+.log textarea {
+  background: #7e95f2;
 }
 
 .T1L,
@@ -69,10 +77,22 @@
 }
 
 .boxlog button {
-  background-color: #4263eb;
-  color: white;
+  background-color: #a2b5ff;
+  color: #4263eb;
   padding: 10px 20px;
-  border: none;
   border-radius: 8px;
   cursor: pointer;
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button horizontally */
+  border: 2px solid white; /* Add a white border */
+  transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+.boxlog button:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: #4263eb;
+  color: #a2b5ff; /* Change background color on hover */
+}
+.boxlog button h3 {
+  font-weight: 700;
 }

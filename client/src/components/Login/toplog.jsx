@@ -14,14 +14,15 @@ const Toplog = () => {
           <h2>Vamos começar! Faça seu cadastro para iniciarmos:</h2>
         </div>
         <div className="boxlog col-6">
-          <h1>FORMULÁRIO DE CONTATO</h1>
           <div className="log">
             <textarea className="T1L" />
             <textarea className="T2L" />
             <textarea className="T3L" />
             <textarea className="T4L" />
           </div>
-          <button>cadastrar</button>
+          <button>
+            <h3>Cadastrar</h3>
+          </button>
         </div>
       </div>
     </div>
