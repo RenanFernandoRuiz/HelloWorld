@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import Sobre from "./pages/Sobre.jsx";
 import Desenvolv from "./pages/Desenvolv.jsx";
 import Curso from "./pages/Curso.jsx";
+import Login from "./pages/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/sobre", element: <Sobre /> },
       { path: "/desenvolvimento", element: <Desenvolv /> },
       { path: "/cursos", element: <Curso /> },
+      { path: "/login", element: <Login /> },
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],

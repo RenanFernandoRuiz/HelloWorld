@@ -36,4 +36,9 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 1em;
+  transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+.sim button:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: #5a57ff; /* Change background color on hover */
 }

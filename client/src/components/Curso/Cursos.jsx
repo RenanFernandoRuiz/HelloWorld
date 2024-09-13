@@ -13,11 +13,11 @@ import html from "/img/html.svg";
 import css from "/img/css.svg";
 import javascript from "/img/javascript.svg";
 import react from "/img/react.svg";
-import csharp from "/img/csharp.svg";
-import java from "/img/java.svg";
-import python from "/img/python.svg";
-import php from  "/img/php.svg";
-import cmais from "/img/cmais.svg";
+import csharp from "/img/g1.svg";
+import java from "/img/g2.svg";
+import python from "/img/g3.svg";
+import php from "/img/g4.svg";
+import cmais from "/img/g5.svg";
 
 const Cursos = () => {
   return (
@@ -119,6 +119,7 @@ const Cursos = () => {
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C6 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
               <img src={java} />
+
               <div className="texxtinho">
                 <h2>Java</h2>
               </div>
@@ -129,20 +130,23 @@ const Cursos = () => {
           <div className="allt d-flex col-10">
             <div className="C7 bg-success col-4 text-white d-flex justify-content-center align-items-center">
               <img src={python} />
+
               <div className="texxtinho">
                 <h2>Python</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C8 bg-danger col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={php}/>
+              <img src={php} />
+
               <div className="texxtinho">
                 <h2>PHP</h2>
               </div>
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
             <div className="C9 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={cmais}/>
+              <img src={cmais} />
+
               <div className="texxtinho">
                 <h2>C++</h2>
               </div>
