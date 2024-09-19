@@ -10,7 +10,6 @@ function Header() {
     { name: "Contato", component: "/contato" },
     { name: "Desenvolvimento", component: "/desenvolvimento" },
     { name: "Sobre", component: "/sobre" },
-    { name: "Login", component: "/login" },
   ];
   return (
     <header className="header row fixed-top col-12 m-0 mb-0 ">
@@ -52,7 +51,7 @@ function Header() {
           </div>
 
           <div className="login d-flex align-items-center">
-            <a className="btn" href="">
+            <a className="btn" href="/login">
               Login
             </a>{" "}
           </div>
