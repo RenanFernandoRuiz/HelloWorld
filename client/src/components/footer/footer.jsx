@@ -2,13 +2,13 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="pe col-12 d-flex justify-content-center">
+    <div className="pe col-12 col-sm-12 d-flex justify-content-center">
       <h3>Problemas? Contate-nos:</h3>
       <div>
         <h3>helloworld@gmail.com</h3>
         <h3>(14) 4002-8922 </h3>
       </div>
-      <div className="logo">
+      <div className="logo col-3 col-sm-3">
         <a
           href="https://github.com/RenanFernandoRuiz/HelloWorld.git"
           target="_blank"
