@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import Contatos from "./pages/Contatos.jsx";
 import Home from "./pages/Home.jsx";
 import Sobre from "./pages/Sobre.jsx";

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
 #root {
   width: 100%;
   box-sizing: border-box;
@@ -46,4 +48,27 @@
   margin: 0;
   padding: 0;
   background-color: #b6cfff;
+}
+
+
+
+/* novos itens para tema dark ou light */
+:root{
+  --cor-link: pink;
+  --bg-body: #f3f3f3;
+  --bg-container:#6460ff;
+  --cor-fonte: #fff;
+}
+
+@media (prefers-color-scheme:dark){
+  :root{
+    --cor-link: red;
+  --bg-body: #0f0f0f;
+  --cor-fonte: #000;
+  }
+}
+
+
+.corFundo{
+  background: var(--bg-container);
 }

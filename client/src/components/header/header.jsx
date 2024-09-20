@@ -12,52 +12,54 @@ function Header() {
     { name: "Sobre", component: "/sobre" },
   ];
   return (
-    <header className="header row fixed-top col-12 m-0 mb-0 ">
-      <nav className="d-flex justify-content-between align-items-center ">
-        <img src={logo} alt="Logo Hello World" />
-        <div className="navtop col-md-6">
-          {navigation.map((iten) => (
-            <Link
-              className="d-none d-lg-block"
-              key={iten.name}
-              to={iten.component}
-            >
-              {iten.name}
-            </Link>
-          ))}
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid p-0">
+        <a className="navbar-brand" href="#">
+          <img className="imgLogo" src={logo} alt="Logo Hello World" />
+        </a>
+        <button
+          className="navbar-toggler fontLink"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon "></span>
+        </button>
+        <div
+          className="collapse navbar-collapse corFundo"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
+            {navigation.map((iten) => (
+              <li className="nav-item">
+                <Link
+                  className="nav-link fontLink"
+                  key={iten.name}
+                  to={iten.component}
+                >
+                  {iten.name}
+                </Link>
+              </li>
+            ))}
 
-          {/* <Link className="d-none d-lg-block" to={"/"}>
-            Hello World
-          </Link>
-          <Link className="d-none d-lg-block" to={"/cursos"}>
-            Cursos
-          </Link>
-          <Link className="d-none d-lg-block" to={"/sobre"}>
-            Sobre
-          </Link>
-          <Link className="d-none d-lg-block" to={"/desenvolvimento"}>
-            Desenvolvimento
-          </Link>
-          <Link className="d-none d-lg-block" to={"/contato"}>
-            Contato
-          </Link>{" "}
-          */}
+            <div className="idioma">
+              <a className="fontLink" href="#">
+                Idioma:
+              </a>
+              <img src={brasil} alt="Bandeira do Brasil" />
+            </div>
+          </ul>
         </div>
-
-        <div className="d-flex pe-5 gap-4">
-          <div className="idioma">
-            <a href="#">Idioma:</a>
-            <img src={brasil} alt="Bandeira do Brasil" />
-          </div>
-
-          <div className="login d-flex align-items-center">
-            <a className="btn" href="/login">
-              Login
-            </a>{" "}
-          </div>
+        <div className="login d-flex align-items-center">
+          <a className="btn" href="/login">
+            Login
+          </a>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 }
 

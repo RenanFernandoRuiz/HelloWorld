@@ -1,24 +1,35 @@
-.header {
-  background-color: #6562ff;
+nav {
+  font-family: "Karantina", system-ui;
+  font-weight: 600;
+  font-size: 3em;
   align-items: center;
-  height: 135px;
   max-height: 6rem;
+  background: var(--bg-container)!important;
+ 
+  & a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 1rem;
+    font-size: 1.3em;
+  }
 
-
-  /* position: fixed; */
-  /* top: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: 1.5rem;
-  right: 0; */
+  & img {
+   
+    padding: 0;
+    
+  }
 }
 
-.header a {
-  text-decoration: none;
-  color: white;
-  padding-inline: 1rem;
-  font-size: 1.3rem;
+.container-fluid{
+  background: var(--bg-container)!important;
+}
+
+.fontLink{
+  color: var(--cor-fonte) !important;
+}
+
+.imgLogo{
+  max-width: 5em;
 }
 
 .navtop {
@@ -33,10 +44,6 @@
   white-space: nowrap;
   font-size: 2em;
 }
-.header img {
-  width: 6em;
-  padding: 0;
-}
 
 .idioma {
   min-height: 3rem;
@@ -47,7 +54,7 @@
   margin-left: 4rem;
 }
 .idioma a {
-  font-size: 2em;
+  /* font-size: 1.3em; */
 }
 
 .idioma img {

@@ -1,5 +1,5 @@
 .divMaster {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   width: 100%;
   background-color: #6562ff;
 }
@@ -7,7 +7,7 @@
   padding-top: 2em;
   display: flex;
   flex-direction: column;
-  background-color: #6460ff;
+  background-color: var(--bg-container);
   background-image: linear-gradient(
     160deg,
     #6460ff 0%,
