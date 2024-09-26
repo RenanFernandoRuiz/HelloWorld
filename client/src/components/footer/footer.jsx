@@ -2,12 +2,12 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer id="contato" className="">
       <div className="col-12 w-100 pez d-flex justify-content-center align-items-center">
         <div className="ttest d-flex flex-column flex-md-row col-6 col-md-4 align-content-center">
           <h3 className="escrita  m-3">Problemas? Contate-nos:</h3>
           <div className="m-lg-3">
-            <h3 className="escrita1 ">helloworld@gmail.com</h3>
+            <h4 className="escrita1 m-1">helloworld@gmail.com</h4>
             <h3 className="escrita2 ">(14) 4002-8922 </h3>
           </div>
         </div>

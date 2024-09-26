@@ -19,7 +19,7 @@ const Rest = () => {
         </div>
       </div>
 
-      <div className="duno col-12 row ">
+      <div className="duno col-12 row mt-5">
         <div className="no m-0 col-12 col-md-6 ">
           <img src={leptop} alt="" />
         </div>
@@ -27,19 +27,19 @@ const Rest = () => {
           <h3>Baseado e inspirado em jogos de todo o mundo!</h3>
         </div>
       </div>
-      <div className="tre col-12 row ">
-        <div id="instalar" className="sim m-0 col-12 col-md-6">
+      <div id="instalar" className="tre col-12 row ">
+        <div className="simimg col-12 col-md-6">
           <img src={celular} alt="" />
-          <div className="restexto col-12 col-md-5">
-            <h2>Aprenda de todos os lugares!</h2>
-            <h3>
-              Temos aplicativo disponivel para dispositivos moveis! Permitindo
-              que vc realize as atividades e quizes de qualquer lugar que vocÊ
-              eestiver!
-            </h3>
-          </div>
-          <button className="col">Instale nosso aplicativo!</button>
         </div>
+        <div className="restexto col-12 col-md-5">
+          <h2>Aprenda de todos os lugares!</h2>
+          <h3>
+            Temos aplicativo disponivel para dispositivos moveis! Permitindo que
+            vc realize as atividades e quizes de qualquer lugar que vocÊ
+            eestiver!
+          </h3>
+        </div>
+        <button className="col-1">Instale nosso aplicativo!</button>
       </div>
     </div>
   );

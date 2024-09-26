@@ -23,7 +23,7 @@
   color: #306aff;
   margin: 0; /* Remove a margem padrão do <h2> */
 }
-.sim button {
+.tre button {
   display: flex;
   margin: auto;
   margin-bottom: 5em;
@@ -38,7 +38,7 @@
   border-radius: 1em;
   transition: all 0.3s ease; /* Add transition for smooth animation */
 }
-.sim button:hover {
+.tre button:hover {
   transform: scale(1.1); /* Increase size on hover */
   background-color: #5a57ff; /* Change background color on hover */
 }
@@ -51,6 +51,6 @@
   max-width: 80%;
 }
 
-.sim img {
+.tre img {
   max-width: 80%;
 }

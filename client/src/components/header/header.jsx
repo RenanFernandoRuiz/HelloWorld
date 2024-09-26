@@ -14,7 +14,7 @@ function Header() {
 
   const navigationPhone = [
     { name: "Hello World", component: "/" },
-    { name: "Cursos", component: "#cursos" },
+    { name: "Cursos", component: "#curso" },
     { name: "Contato", component: "#contato" },
     { name: "Desenvolvimento", component: "#desenvolvimento" },
     { name: "Instalar", component: "#instalar" },

@@ -19,7 +19,7 @@ const Container = () => {
     //   </div>
 
     <div className="divMaster row m-0 p-0">
-      <div className="row flex-md-row flex-column-reverse">
+      <div id="curso" className="row flex-md-row flex-column-reverse">
         <div className="d-flex flex-row flex-md-column col-lg-1 sidebar overflow-x-scroll">
           <img src={image1} alt="1" href="#" />
           <img src={image2} alt="2" href="#" />
