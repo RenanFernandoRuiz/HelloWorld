@@ -1,7 +1,13 @@
 .divMaster {
   /* margin-top: 80px; */
-  width: 100%;
-  background-color: #6562ff;
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  background: #6562ff;
+  & .row {
+    --bs-gutter-x: 0;
+  }
 }
 .sidebar {
   padding-top: 2em;
@@ -24,27 +30,15 @@
   margin-left: 2em;
   padding-bottom: 1.5em;
 }
-.all {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: #6562ff;
-  height: 80vh;
-  width: 100%;
-}
-.quadro {
-  min-height: 90vh;
-}
+
 .quadro img {
   border-radius: 2em;
-  margin: 5em;
   width: 90%;
 }
 .jeito {
   display: flex; /* Define o contêiner como flexível */
   justify-content: center; /* Alinha o item horizontalmente no centro */
   align-items: center; /* Alinha o item verticalmente no centro */
-  min-height: 90vh;
 }
 
 .jeito h2 {

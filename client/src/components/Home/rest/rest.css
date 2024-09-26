@@ -13,7 +13,7 @@
   justify-content: center; /* Alinha o item horizontalmente no centro */
   align-items: center; /* Alinha o item verticalmente no centro */
   flex-direction: column;
-  gap: 4em;
+  margin: 1em;
 }
 .restexto h2 {
   color: #306aff;
@@ -41,4 +41,16 @@
 .sim button:hover {
   transform: scale(1.1); /* Increase size on hover */
   background-color: #5a57ff; /* Change background color on hover */
+}
+
+.yes img {
+  max-width: 100%;
+}
+
+.no img {
+  max-width: 80%;
+}
+
+.sim img {
+  max-width: 80%;
 }

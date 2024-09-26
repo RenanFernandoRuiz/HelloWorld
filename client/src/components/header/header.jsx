@@ -11,6 +11,14 @@ function Header() {
     { name: "Desenvolvimento", component: "/desenvolvimento" },
     { name: "Sobre", component: "/sobre" },
   ];
+
+  const navigationPhone = [
+    { name: "Hello World", component: "/" },
+    { name: "Cursos", component: "#cursos" },
+    { name: "Contato", component: "#contato" },
+    { name: "Desenvolvimento", component: "#desenvolvimento" },
+    { name: "Instalar", component: "#instalar" },
+  ];
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid p-0">
@@ -32,7 +40,29 @@ function Header() {
           className="collapse navbar-collapse corFundo"
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
+          {/* smartphone */}
+          <ul className="d-flex d-md-none navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
+            {navigationPhone.map((iten) => (
+              <li className="nav-item">
+                <a
+                  href={iten.component}
+                  className="nav-link fontLink"
+                  key={iten.name}
+                >
+                  {iten.name}
+                </a>
+              </li>
+            ))}
+            <div className="idioma">
+              <a className="fontLink" href="#">
+                Idioma:
+              </a>
+              <img src={brasil} alt="Bandeira do Brasil" />
+            </div>
+          </ul>
+
+          {/* Desktop */}
+          <ul className="d-none d-md-flex navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
             {navigation.map((iten) => (
               <li className="nav-item">
                 <Link
@@ -44,7 +74,6 @@ function Header() {
                 </Link>
               </li>
             ))}
-
             <div className="idioma">
               <a className="fontLink" href="#">
                 Idioma:

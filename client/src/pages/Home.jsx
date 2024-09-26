@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Container />
-      <Geral />
+      
       <Rest />
     </>
   );
