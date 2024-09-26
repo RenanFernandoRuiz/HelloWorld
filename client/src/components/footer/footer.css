@@ -1,13 +1,4 @@
-.pe {
-  gap: 5em;
-  align-items: center;
-  min-height: 10em;
-  background: #625efb;
-  color: #ffffff;
-  margin-top: 2em;
-}
 .logo {
-  gap: 2em;
   justify-content: space-between;
 }
 
@@ -16,4 +7,24 @@
 }
 ion-icon {
   font-size: 4em;
+}
+
+.escrita {
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+.escrita1 {
+  color: #ffffff;
+}
+
+.escrita2 {
+  color: #ffffff;
+}
+.pez {
+  background: #625efb;
+}
+
+.hashtag {
+  color: #ffffff;
 }
