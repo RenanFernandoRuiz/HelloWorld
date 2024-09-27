@@ -52,3 +52,7 @@
 .all h2 {
   margin: 1em;
 } */
+
+#logoCurso::-webkit-scrollbar {
+  display: none;
+}
