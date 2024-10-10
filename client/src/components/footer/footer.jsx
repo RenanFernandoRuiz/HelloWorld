@@ -11,7 +11,7 @@ const Footer = () => {
             <h3 className="escrita2 ">(14) 4002-8922 </h3>
           </div>
         </div>
-        <div className="logo col-6 m-0 col-md-4 m-lg-3 d-flex fs-1 align-items-center">
+        <div className="logo col-6 m-0 col-md-4 m-lg-3 d-flex fs-1 align-items-center ">
           <a
             href="https://github.com/RenanFernandoRuiz/HelloWorld.git"
             target="_blank"
@@ -39,3 +39,4 @@ const Footer = () => {
   );
 };
 export default Footer;
+ 

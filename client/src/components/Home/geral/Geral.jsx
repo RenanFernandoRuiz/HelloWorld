@@ -6,7 +6,7 @@ const Geral = () => {
       <div className="sla flex-column flex-md-row  mt-2 mt-md-1">
         <button>Já tenho uma conta</button>
 
-        <div className="button">
+        <div className="button" >
           <button>COMECE AGORA!</button>
         </div>
       </div>
