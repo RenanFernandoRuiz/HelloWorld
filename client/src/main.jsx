@@ -13,6 +13,8 @@ import Curso from "./pages/Curso.jsx";
 import Login from "./pages/Login.jsx";
 import Cadastro from "./components/Cadastro/cadastro.jsx";
 import Jogo1 from "./pages/Jogo1.jsx";
+import MeuComponente from "./components/jogo/Tela1.jsx";
+import Tela2 from "./components/jogo2/Tela2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,8 @@ const router = createBrowserRouter([
       { path: "/cursos", element: <Curso /> },
       { path: "/login", element: <Login /> },
       { path: "/Cadastro", element: <Cadastro /> },
-      { path: "/Jogo1", element: <Jogo1 /> },
+      { path: "/Jogo1", element: <MeuComponente /> },
+      { path: "/Jogo2", element: <Tela2 />},
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],

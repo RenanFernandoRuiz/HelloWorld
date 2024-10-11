@@ -13,9 +13,9 @@ import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
 import fundohtml from "../../assets/fundohtml.svg";
 import { Link } from "react-router-dom";
-import "./Tela1.css";
+import "./Tela2.css";
 
-const Tela1 = () => {
+const Tela2 = () => {
   const [inputValue, setInputValue] = useState("");
   const [mostrarBotao, setMostrarBotao] = useState(false);
   const [inputValue2, setInputValue2] = useState("");
@@ -30,7 +30,7 @@ const Tela1 = () => {
   const handleInputChange2 = (event) => {
     const valor = event.target.value;
     setInputValue2(valor);
-    setMostrarBotao2(valor === "button"); // Altera o estado do botão
+    setMostrarBotao2(valor === "aaa"); // Altera o estado do botão
   };
 
   return (
@@ -87,7 +87,7 @@ const Tela1 = () => {
       </div>
       <div className="bababoe col-10">
         <div className="level col-10 d-flex flex-column">
-          <h2>NÍVEL:VARIÁVEL</h2>
+          <h2>NÍVEL:INTERMEDIÁRIO</h2>
           <div className="levelbar col">
             <div
               className="progress"
@@ -163,4 +163,4 @@ const Tela1 = () => {
   );
 };
 
-export default Tela1;
+export default Tela2;
