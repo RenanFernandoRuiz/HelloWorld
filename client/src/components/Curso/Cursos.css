@@ -18,6 +18,13 @@
   background: #625efb;
   border-radius: 0 0 2em 2em;
 }
+
+.texxtinho h2 {
+  color: aliceblue;
+}
+& Link {
+  color: aliceblue !important;
+}
 .C1 {
   margin: 1;
   border-radius: 4em;

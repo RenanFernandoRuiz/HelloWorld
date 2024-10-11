@@ -28,7 +28,7 @@ const Cursos = () => {
           <div className="img1 d-flex">
             <img src={image1} alt="1" href="#" />
             <Link to="/Jogo1">
-              <a>HTML:5</a>
+              <p>HTML:5</p>
             </Link>
           </div>
           <div className="img2 d-flex">
@@ -79,7 +79,9 @@ const Cursos = () => {
             <div className="C1 bg-success col-4 text-white d-flex justify-content-center align-items-center">
               <img src={html} />
               <div className="texxtinho">
-                <h2>HTML</h2>
+                <Link to="/Jogo1">
+                  <h2>HTML</h2>
+                </Link>
                 <h4> Linguagem de marcação para estruturação de páginas web</h4>
               </div>
             </div>
