@@ -73,7 +73,7 @@ const Toplog = () => {
             <button type="submit">Login</button>
           </form>
           {message && <p className="message">{message}</p>}
-          {!isLoggedIn && <Link to="/register">Register</Link>}
+          {!isLoggedIn && <Link to="/Cadastro">Cadastro</Link>}
         </div>
       </div>
     </div>

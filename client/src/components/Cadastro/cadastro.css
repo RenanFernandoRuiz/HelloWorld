@@ -27,3 +27,9 @@
   align-items: center;
   margin: 0 auto; /* Center the div horizontally */
 }
+
+.Títulos {
+  color: #625efb;
+  font-size: 2em;
+  margin: 1em;
+}

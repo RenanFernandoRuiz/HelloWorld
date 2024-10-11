@@ -12,6 +12,7 @@ import Desenvolv from "./pages/Desenvolv.jsx";
 import Curso from "./pages/Curso.jsx";
 import Login from "./pages/Login.jsx";
 import Cadastro from "./components/Cadastro/cadastro.jsx";
+import Jogo1 from "./pages/Jogo1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "/cursos", element: <Curso /> },
       { path: "/login", element: <Login /> },
       { path: "/Cadastro", element: <Cadastro /> },
+      { path: "/Jogo1", element: <Jogo1 /> },
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],

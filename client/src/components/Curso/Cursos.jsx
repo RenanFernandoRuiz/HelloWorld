@@ -12,12 +12,13 @@ import image9 from "/img/image9.svg";
 import html from "/img/html.svg";
 import css from "/img/css.svg";
 import javascript from "/img/javascript.svg";
-import react from "/img/react.svg";
-import csharp from "/img/g1.svg";
-import java from "/img/g2.svg";
-import python from "/img/g3.svg";
-import php from "/img/g4.svg";
-import cmais from "/img/g5.svg";
+import cmais1 from "/img/cmais1.svg";
+import csharp1 from "/img/csharp1.svg";
+import java1 from "/img/java1.svg";
+import php1 from "/img/php1.svg";
+import python2 from "/img/python2.svg";
+import react1 from "/img/react1.svg";
+import { Link } from "react-router-dom";
 
 const Cursos = () => {
   return (
@@ -26,15 +27,17 @@ const Cursos = () => {
         <div className="barralatera col-2 text-white d-flex">
           <div className="img1 d-flex">
             <img src={image1} alt="1" href="#" />
-            <p>HTML:5</p>
+            <Link to="/Jogo1">
+              <a>HTML:5</a>
+            </Link>
           </div>
           <div className="img2 d-flex">
-            <img src={image2} alt="1" href="#" />
+            <img src={image2} alt="2" href="#" />
             <p>C#</p>
           </div>
 
           <div className="img3 d-flex">
-            <img src={image3} alt="1" href="#" />
+            <img src={image3} alt="3" href="#" />
             <p>JavaScript</p>
           </div>
 
@@ -100,59 +103,25 @@ const Cursos = () => {
               </div>
             </div>
           </div>
-
-          {/* ------------------------------------------------------------------------------------------------------ */}
-          <div className="allt d-flex col-10">
-            <div className="C4 bg-success col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={react} />
-              <div className="texxtinho">
-                <h2>React</h2>
-              </div>
+          <div className="g-0">
+            {/* ------------------------------------------------------------------------------------------------------ */}
+            <div className="am d-flex col-10">
+              <img className="umm" src={csharp1} alt="" />
+              {/* ------------------------------------------------------------------------------------------------------ */}
+              <img src={react1} alt="" />
+              {/* ------------------------------------------------------------------------------------------------------ */}
+              <img src={java1} alt="" />
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
-            <div className="C5 bg-danger col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={csharp} />
-              <div className="texxtinho">
-                <h2>C#</h2>
-              </div>
+            <div className="em d-flex col-10">
+              <img className="doins" src={python2} alt="" />
+              {/* ------------------------------------------------------------------------------------------------------ */}
+              <img src={php1} alt="" />
+              {/* ------------------------------------------------------------------------------------------------------ */}
+              <img src={cmais1} alt="" />
             </div>
             {/* ------------------------------------------------------------------------------------------------------ */}
-            <div className="C6 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={java} />
-
-              <div className="texxtinho">
-                <h2>Java</h2>
-              </div>
-            </div>
           </div>
-
-          {/* ------------------------------------------------------------------------------------------------------ */}
-          <div className="allt d-flex col-10">
-            <div className="C7 bg-success col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={python} />
-
-              <div className="texxtinho">
-                <h2>Python</h2>
-              </div>
-            </div>
-            {/* ------------------------------------------------------------------------------------------------------ */}
-            <div className="C8 bg-danger col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={php} />
-
-              <div className="texxtinho">
-                <h2>PHP</h2>
-              </div>
-            </div>
-            {/* ------------------------------------------------------------------------------------------------------ */}
-            <div className="C9 bg-warning col-4 text-white d-flex justify-content-center align-items-center">
-              <img src={cmais} />
-
-              <div className="texxtinho">
-                <h2>C++</h2>
-              </div>
-            </div>
-          </div>
-          {/* ------------------------------------------------------------------------------------------------------ */}
         </div>
       </div>
     </div>
