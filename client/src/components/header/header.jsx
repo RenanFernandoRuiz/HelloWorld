@@ -43,7 +43,7 @@ function Header() {
           {/* smartphone */}
           <ul className="d-flex d-md-none navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
             {navigationPhone.map((iten) => (
-              <li className="nav-item">
+              <li className="nav-item" key={iten.name}>
                 <a
                   href={iten.component}
                   className="nav-link fontLink"
@@ -64,7 +64,7 @@ function Header() {
           {/* Desktop */}
           <ul className="d-none d-md-flex navbar-nav me-auto mb-2 mb-lg-0 align-items-center gap-3">
             {navigation.map((iten) => (
-              <li className="nav-item">
+              <li className="nav-item" key={iten.name}>
                 <Link
                   className="nav-link fontLink"
                   key={iten.name}

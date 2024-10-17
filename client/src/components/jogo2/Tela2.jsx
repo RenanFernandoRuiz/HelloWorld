@@ -12,25 +12,48 @@ import telahtml from "../../assets/telahtml.svg";
 import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
 import fundohtml from "../../assets/fundohtml.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Tela2.css";
 
 const Tela2 = () => {
+  const location = useLocation();
+  const { userId, nickName, level, acerto } = location.state;
+  const navigate = useNavigate();
+  const [acertoGame, setAcertoGame] = useState(0);
+
   const [inputValue, setInputValue] = useState("");
-  const [mostrarBotao, setMostrarBotao] = useState(false);
   const [inputValue2, setInputValue2] = useState("");
-  const [mostrarBotao2, setMostrarBotao2] = useState(false);
+  const [isDisabled1, setIsDisabled1] = useState(false);
+  const [isDisabled2, setIsDisabled2] = useState(false);
 
   const handleInputChange = (event) => {
     const valor = event.target.value;
     setInputValue(valor);
-    setMostrarBotao(valor === "function"); // Altera o estado do botão
+    if (valor === "function") {
+      setAcertoGame(acertoGame + 1);
+      setIsDisabled1(true);
+    }
   };
 
   const handleInputChange2 = (event) => {
     const valor = event.target.value;
     setInputValue2(valor);
-    setMostrarBotao2(valor === "<p>"); // Altera o estado do botão
+    if (valor === "<p>") {
+      setAcertoGame(acertoGame + 1);
+      setIsDisabled2(true);
+    }
+  };
+
+  const handleGame = () => {
+    const userData = {
+      userId: userId,
+      nickName: nickName,
+      level: level + 1,
+      acerto: acerto + acertoGame,
+    };
+
+    acerto + acertoGame > 1 && navigate("/Jogo3", { state: userData });
+    // acerto > 0 && navigate("/Jogo2", replace("/"));
   };
 
   return (
@@ -130,6 +153,7 @@ const Tela2 = () => {
             <div className="imgtres2">
               <input
                 type="text"
+                disabled={isDisabled1}
                 value={inputValue}
                 onChange={handleInputChange}
                 placeholder="Digite uma palavra"
@@ -137,6 +161,7 @@ const Tela2 = () => {
               <h2>CreateParagraph()&gt;</h2>
               <input
                 type="text"
+                disabled={isDisabled2}
                 value={inputValue2}
                 onChange={handleInputChange2}
                 placeholder="Digite uma palavra"
@@ -145,18 +170,10 @@ const Tela2 = () => {
                 {"{"} return&lt;Parágrafo Criado!n&gt;&lt;/p&gt; {"}"}
               </h2>
             </div>
-            {mostrarBotao && (
-              <Link to="/Jogo3" className="link">
-                <button className="butao"> MUITO BEM</button>
-              </Link>
-            )}{" "}
-            {/* Mostra o botão condicionalmente */}
-            {mostrarBotao2 && (
-              <Link to="/Jogo3" className="link">
-                <button className="butao"> MUITO BEM</button>
-              </Link>
-            )}{" "}
-            {/* Mostra o botão condicionalmente */}
+            <button className="butao" onClick={handleGame}>
+              {" "}
+              MUITO BEM
+            </button>
           </div>
         </div>
       </div>

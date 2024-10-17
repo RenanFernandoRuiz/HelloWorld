@@ -12,25 +12,45 @@ import telahtml from "../../assets/telahtml.svg";
 import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
 import fundohtml from "../../assets/fundohtml.svg";
-import { Link } from "react-router-dom";
+import { Link, Navigate, replace, useNavigate } from "react-router-dom";
 import "./Tela1.css";
 
 const Tela1 = () => {
   const [inputValue, setInputValue] = useState("");
-  const [mostrarBotao, setMostrarBotao] = useState(false);
   const [inputValue2, setInputValue2] = useState("");
-  const [mostrarBotao2, setMostrarBotao2] = useState(false);
+  const [acerto, setAcerto] = useState(0);
+  const navigate = useNavigate();
+  const [isDisabled1, setIsDisabled1] = useState(false);
+  const [isDisabled2, setIsDisabled2] = useState(false);
 
   const handleInputChange = (event) => {
     const valor = event.target.value;
     setInputValue(valor);
-    setMostrarBotao(valor === "function"); // Altera o estado do botão
+    if (valor === "function") {
+      setAcerto(acerto + 1);
+      setIsDisabled1(true);
+    }
   };
 
   const handleInputChange2 = (event) => {
     const valor = event.target.value;
     setInputValue2(valor);
-    setMostrarBotao2(valor === "button"); // Altera o estado do botão
+    if (valor === "button") {
+      setAcerto(acerto + 1);
+      setIsDisabled2(true);
+    }
+  };
+
+  const handleGame = () => {
+    const userData = {
+      userId: null,
+      nickName: "Usuário",
+      level: 1,
+      acerto: acerto,
+    };
+
+    acerto > 0 && navigate("/Jogo2", { state: userData });
+    // acerto > 0 && navigate("/Jogo2", replace("/"));
   };
 
   return (
@@ -128,6 +148,7 @@ const Tela1 = () => {
             <div className="imgtres2">
               <input
                 type="text"
+                disabled={isDisabled1}
                 value={inputValue}
                 onChange={handleInputChange}
                 placeholder="Digite uma palavra"
@@ -135,28 +156,19 @@ const Tela1 = () => {
               <h2>WellDone() {"{"} return</h2>
               <input
                 type="text"
+                disabled={isDisabled2}
                 value={inputValue2}
                 onChange={handleInputChange2}
                 placeholder="Digite uma palavra"
               />
-           <h2>&lt;button&gt;Muito bem!&lt;/button&gt; {"}"}</h2>
-</div>
+              <h2>&lt;button&gt;Muito bem!&lt;/button&gt; {"}"}</h2>
+            </div>
 
-{mostrarBotao && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-
-{mostrarBotao2 && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-</div>
-
+            <button className="butao" onClick={handleGame}>
+              {" "}
+              MUITO BEM
+            </button>
+          </div>
         </div>
       </div>
     </div>
