@@ -31,7 +31,8 @@ const Toplog = () => {
         setIsLoggedIn(true);
         // Você pode armazenar o token em localStorage ou context
         navigate("/dashboard"); // Redirecionar após login bem-sucedido
-      } else {
+      } 
+      else {
         setMessage(data.error || "Login failed!");
       }
     } catch (error) {

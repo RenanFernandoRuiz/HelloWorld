@@ -30,7 +30,7 @@ const Tela2 = () => {
   const handleInputChange2 = (event) => {
     const valor = event.target.value;
     setInputValue2(valor);
-    setMostrarBotao2(valor === "aaa"); // Altera o estado do botão
+    setMostrarBotao2(valor === "<p>"); // Altera o estado do botão
   };
 
   return (
@@ -85,7 +85,7 @@ const Tela2 = () => {
           <p>Linguagens</p>
         </div>
       </div>
-      <div className="bababoe col-10">
+      <div className="bababoe2 col-10">
         <div className="level col-10 d-flex flex-column">
           <h2>NÍVEL:INTERMEDIÁRIO</h2>
           <div className="levelbar col">
@@ -93,32 +93,34 @@ const Tela2 = () => {
               className="progress"
               role="progressbar"
               aria-label="Success example"
-              aria-valuenow="25"
+              aria-valuenow="50"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar">25%</div>
+              <div className="progress-bar2">50%</div>
             </div>
           </div>
         </div>
-        <div className="geralhtml d-flex">
-          <img className="imguno" src={polvo} alt="" />
-          <div className="questoeshtml">
-            <div className="imgduno">
+        <div className="geralhtml2 d-flex">
+          <img className="imguno2" src={polvo} alt="" />
+          <div className="questoeshtml2">
+            <div className="imgduno2">
               <img src={barrahtml5} alt="" />
             </div>
-            <div className="imgtres">
-              function WellDone() {"{"} return &lt;button&gt;Muito
-              bem!&lt;/button&gt; {"}"}
+
+            <div className="imgtres2">
+              function CreateParagraph() {"{"} return &lt;p&gt;Parágrafo
+              Criado!&lt;/p&gt; {"}"}
             </div>
           </div>
         </div>
-        <div className="resro col-6">
+        <div className="resro2 col-6">
           <h2>
-            Essa função , cria um botão , dizendo “Muito bem!” Vamos tentar
-            replicar? Escreva no prompt abaixo as partes faltando:
+            Essa função cria um parágrafo com o texto “Parágrafo Criado!” Vamos
+            replicar? Escreva no prompt abaixo as partes faltando:
           </h2>
         </div>
+
         <div className="geralhtml2 d-flex">
           <img className="imguno2" src={polvo} alt="" />
           <div className="questoeshtml2">
@@ -132,31 +134,30 @@ const Tela2 = () => {
                 onChange={handleInputChange}
                 placeholder="Digite uma palavra"
               />
-              <h2>WellDone() {"{"} return</h2>
+              <h2>CreateParagraph()&gt;</h2>
               <input
                 type="text"
                 value={inputValue2}
                 onChange={handleInputChange2}
                 placeholder="Digite uma palavra"
               />
-           <h2>&lt;button&gt;Muito bem!&lt;/button&gt; {"}"}</h2>
-</div>
-
-{mostrarBotao && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-
-{mostrarBotao2 && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-</div>
-
+              <h2>
+                {"{"} return&lt;Parágrafo Criado!n&gt;&lt;/p&gt; {"}"}
+              </h2>
+            </div>
+            {mostrarBotao && (
+              <Link to="/Jogo3" className="link">
+                <button className="butao"> MUITO BEM</button>
+              </Link>
+            )}{" "}
+            {/* Mostra o botão condicionalmente */}
+            {mostrarBotao2 && (
+              <Link to="/Jogo3" className="link">
+                <button className="butao"> MUITO BEM</button>
+              </Link>
+            )}{" "}
+            {/* Mostra o botão condicionalmente */}
+          </div>
         </div>
       </div>
     </div>

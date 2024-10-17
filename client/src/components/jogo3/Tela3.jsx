@@ -13,24 +13,24 @@ import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
 import fundohtml from "../../assets/fundohtml.svg";
 import { Link } from "react-router-dom";
-import "./Tela1.css";
+import "./Tela3.css";
 
-const Tela1 = () => {
+const Tela3 = () => {
   const [inputValue, setInputValue] = useState("");
   const [mostrarBotao, setMostrarBotao] = useState(false);
-  const [inputValue2, setInputValue2] = useState("");
-  const [mostrarBotao2, setMostrarBotao2] = useState(false);
+  const [inputValue3, setInputValue3] = useState("");
+  const [mostrarBotao3, setMostrarBotao3] = useState(false);
 
   const handleInputChange = (event) => {
     const valor = event.target.value;
     setInputValue(valor);
-    setMostrarBotao(valor === "function"); // Altera o estado do botão
+    setMostrarBotao(valor === "CreateImage()"); // Altera o estado do botão
   };
 
-  const handleInputChange2 = (event) => {
+  const handleInputChange3 = (event) => {
     const valor = event.target.value;
-    setInputValue2(valor);
-    setMostrarBotao2(valor === "button"); // Altera o estado do botão
+    setInputValue3(valor);
+    setMostrarBotao3(valor === "alt='Imagem'/>"); // Altera o estado do botão
   };
 
   return (
@@ -85,82 +85,82 @@ const Tela1 = () => {
           <p>Linguagens</p>
         </div>
       </div>
-      <div className="bababoe col-10">
+      <div className="bababoe3 col-10">
         <div className="level col-10 d-flex flex-column">
-          <h2>NÍVEL:VARIÁVEL</h2>
+          <h2>NÍVEL:AVANÇADO</h2>
           <div className="levelbar col">
             <div
               className="progress"
               role="progressbar"
               aria-label="Success example"
-              aria-valuenow="0"
+              aria-valuenow="100"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar">0%</div>
+              <div className="progress-bar3">100%</div>
             </div>
           </div>
         </div>
-        <div className="geralhtml d-flex">
-          <img className="imguno" src={polvo} alt="" />
-          <div className="questoeshtml">
-            <div className="imgduno">
+        <div className="geralhtml3 d-flex">
+          <img className="imguno3" src={polvo} alt="" />
+          <div className="questoeshtml3">
+            <div className="imgduno3">
               <img src={barrahtml5} alt="" />
             </div>
-            <div className="imgtres">
-              function WellDone() {"{"} return &lt;button&gt;Muito
-              bem!&lt;/button&gt; {"}"}
+
+            <div className="imgtres3">
+              function CreateImage() {"{"} return &lt;img src="imagem.jpg"
+              alt="Imagem" /&gt; {"}"}
             </div>
           </div>
         </div>
-        <div className="resro col-6">
+        <div className="resro3 col-6">
           <h2>
-            Essa função , cria um botão , dizendo “Muito bem!” Vamos tentar
+            Essa função cria uma imagem com o arquivo “imagem.jpg” Vamos tentar
             replicar? Escreva no prompt abaixo as partes faltando:
           </h2>
         </div>
-        <div className="geralhtml2 d-flex">
-          <img className="imguno2" src={polvo} alt="" />
-          <div className="questoeshtml2">
-            <div className="imgduno2">
+
+        <div className="geralhtml3 d-flex">
+          <img className="imguno3" src={polvo} alt="" />
+          <div className="questoeshtml3">
+            <div className="imgduno3">
               <img src={barrahtml5} alt="" />
             </div>
-            <div className="imgtres2">
+            <div className="imgtres3">
+              <h2>function()</h2>
               <input
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
                 placeholder="Digite uma palavra"
               />
-              <h2>WellDone() {"{"} return</h2>
+              <h2>{"{"} return &lt;img src="imagem.jpg"&gt;</h2>
               <input
                 type="text"
-                value={inputValue2}
-                onChange={handleInputChange2}
+                value={inputValue3}
+                onChange={handleInputChange3}
                 placeholder="Digite uma palavra"
               />
-           <h2>&lt;button&gt;Muito bem!&lt;/button&gt; {"}"}</h2>
-</div>
-
-{mostrarBotao && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-
-{mostrarBotao2 && (
-  <Link to="/Jogo2" className="link">
-    <button className="butao"> MUITO BEM</button>
-  </Link>
-)}{" "}
-{/* Mostra o botão condicionalmente */}
-</div>
-
+              <h2></h2>
+            </div>
+            {mostrarBotao && (
+              <Link to="/Jogo3" className="link">
+                <button className="butao"> MUITO BEM</button>
+              </Link>
+            )}{" "}
+            {/* Mostra o botão condicionalmente */}
+            {mostrarBotao3 && (
+              <Link to="/Jogo3" className="link">
+                <button className="butao"> MUITO BEM</button>
+              </Link>
+            )}{" "}
+            {/* Mostra o botão condicionalmente */}
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Tela1;
+export default Tela3;

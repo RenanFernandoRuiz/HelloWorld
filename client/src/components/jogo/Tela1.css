@@ -1,4 +1,4 @@
-.level {
+.level2 {
   justify-content: center;
   margin-left: 8em;
 }
@@ -9,29 +9,29 @@
   font-weight: bold;
 }
 
-.progress-bar {
-  width: 25%;
+.progress-bar2 {
+  width: 0%;
   background: #625efb;
 }
-.questoeshtml {
+.questoeshtml2 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 8em;
   flex-direction: column;
 }
-.questoeshtml img {
+.questoeshtml2 img {
   width: 90%;
 }
-.imguno img {
+.imguno2 img {
   width: 90%;
 }
-.geralhtml {
+.geralhtml2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.imgtres {
+.imgtres2 {
   width: 607.5px;
   height: 250px;
   background: #030075;
@@ -39,7 +39,7 @@
   font-size: 2em;
   border-radius: 0px 0px 50px 50px;
 }
-.butao  {
+.butao2 {
   width: 400px;
   height: 150px;
   margin-top: 100px;
@@ -51,7 +51,7 @@
   border: 10px solid #0b4cf2;
   padding: 15px 30px;
 }
-.resro {
+.resro2 {
   text-align: center;
   margin: auto;
   margin-top: 3em;
@@ -84,7 +84,7 @@
   font-size: 2em;
   border-radius: 0px 0px 50px 50px;
 }
-.imgtres2 input{
+.imgtres2 input {
   width: 33%;
   margin: 20px;
 }

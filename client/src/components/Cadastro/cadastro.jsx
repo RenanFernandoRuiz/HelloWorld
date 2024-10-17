@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 const Cadastro = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState(""); // Novo campo para telefone
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate(); // Hook para redirecionar
@@ -16,11 +15,10 @@ const Cadastro = () => {
 
     try {
       const response = await axios.post(
-        "https://www.apihelloworld.somee.com/api/appusers", // Rota da API
+        "https://www.apihelloworld.somee.com/user/register",  // Rota da API
         {
           email,
-          password,
-          phoneNumber, // Adicionando phoneNumber no corpo da requisição
+          password
         }
       );
 
@@ -30,7 +28,7 @@ const Cadastro = () => {
         setErrorMessage("");
         setEmail("");
         setPassword("");
-        setPhoneNumber(""); // Limpar campos
+
         navigate("/login"); // Redirecionar para a página de login
       }
     } catch (error) {
@@ -57,14 +55,6 @@ const Cadastro = () => {
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <input
-            type="text"
-            id="phoneNumber"
-            placeholder="Telefone (+55 11 99999-9999)"
-            value={phoneNumber}
-            onChange={(e) => setPhoneNumber(e.target.value)}
             required
           />
           <input
