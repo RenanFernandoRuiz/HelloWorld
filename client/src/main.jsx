@@ -16,6 +16,7 @@ import Jogo1 from "./pages/Jogo1.jsx";
 import MeuComponente from "./components/jogo/Tela1.jsx";
 import Tela2 from "./components/jogo2/Tela2.jsx";
 import Tela3 from "./components/jogo3/Tela3.jsx";
+import NivelFinal from "./components/Final/NivelFinal.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
       { path: "/Jogo1", element: <MeuComponente /> },
       { path: "/Jogo2", element: <Tela2 />},
       { path: "/Jogo3", element: <Tela3/>},
+      { path: "/final", element: <NivelFinal/>},
       // { path: "contact", element: <Contact /> },
       // { path: "contact/:id", element: <ContactDetails /> },
     ],
