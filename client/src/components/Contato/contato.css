@@ -83,3 +83,20 @@ input {
   font-size: 1.5em;
   margin: 0.2em;
 }
+
+.contact1 {
+  color: white;
+  margin-top: 0.5em;
+}
+
+.form-group label {
+  color: white;
+}
+
+.form-group2 label {
+  color: white;
+}
+
+.form-group2 input {
+  height: 1em;
+}

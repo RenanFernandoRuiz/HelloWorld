@@ -44,8 +44,9 @@ const AppContactForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="cont">
-      <h2>Contato</h2>
-      <div className="form-group">
+      <h2 className="contact1">Contato</h2>
+
+      <div className="form-group col-10">
         <label htmlFor="name">Nome:</label>
         <input
           type="text"
@@ -55,7 +56,7 @@ const AppContactForm = ({ onSubmit }) => {
           required
         />
       </div>
-      <div className="form-group">
+      <div className="form-group col-10">
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -65,7 +66,7 @@ const AppContactForm = ({ onSubmit }) => {
           required
         />
       </div>
-      <div className="form-group">
+      <div className="form-group2 col-8">
         <label htmlFor="mensagem">Mensagem:</label>
         <textarea
           id="mensagem"
