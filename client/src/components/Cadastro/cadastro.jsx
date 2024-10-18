@@ -40,15 +40,16 @@ const Cadastro = () => {
   };
 
   return (
-    <div className="Criar row">
-      <div className="Títulos col-12">
+    <div className="Criar col-12">
+      <div className="Títulos col">
         <h1>Hello World!</h1>
         <h3>Vamos começar! Faça seu cadastro para iniciarmos:</h3>
       </div>
-      <div className="boxing col-6">
+      <div className="boxingM col-12" >
+      <div className="boxing col-4">
         {errorMessage && <p className="error-message">{errorMessage}</p>}
         {successMessage && <p className="success-message">{successMessage}</p>}
-        <form onSubmit={handleCreateAccount}>
+        <form className="col-10" onSubmit={handleCreateAccount}>
           <input
             type="email"
             id="email"
@@ -67,6 +68,7 @@ const Cadastro = () => {
           />
           <button type="submit">Cadastro</button>
         </form>
+      </div>
       </div>
     </div>
   );

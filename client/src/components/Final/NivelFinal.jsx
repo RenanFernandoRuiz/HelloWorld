@@ -8,6 +8,7 @@ import image6 from "/img/image6.svg";
 import image7 from "/img/image7.svg";
 import image8 from "/img/image8.svg";
 import image9 from "/img/image9.svg";
+import trofeu from "/img/trofeu.svg";
 import telahtml from "../../assets/telahtml.svg";
 import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
@@ -23,7 +24,7 @@ import "./NivelFinal.css";
 
 const NivelFinal = () => {
   const location = useLocation();
-  const { userId, nickName, level, acerto } = location.state;
+  const { userId, nickName, level, acerto, curso5 } = location.state;
   const navigate = useNavigate();
   return (
     <div className="alldnv col-12">
@@ -108,8 +109,8 @@ const NivelFinal = () => {
           <div className="level-details5">
             <h2>TÍTULO: {nickName}</h2>
             <h2>PONTOS: {acerto}</h2>
-            <h2>CURSO:{level}</h2>
-            <p>{userId}</p>
+            <h2>CURSO:{curso5} </h2>
+            
           </div>
           <div className="actions">
             <Link to="/">
@@ -118,7 +119,9 @@ const NivelFinal = () => {
             <Link to="/cursos">
               <button className="next-btn">PRÓXIMO DESAFIO</button>
             </Link>
-          </div>
+          </div >
+          <h2 className="parabens">Parabéns você completou o curso:{curso5} {nickName}</h2>
+          <img src={trofeu} alt="1" href="#" />
         </div>
       </section>
     </div>

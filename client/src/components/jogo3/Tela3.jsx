@@ -17,7 +17,7 @@ import "./Tela3.css";
 
 const Tela3 = () => {
   const location = useLocation();
-  const { userId, nickName, level, acerto } = location.state;
+  const { userId, nickName, level, acerto ,curso5 } = location.state;
   const navigate = useNavigate();
   const [acertoGame, setAcertoGame] = useState(0);
 
@@ -52,6 +52,7 @@ const Tela3 = () => {
       nickName: nickName,
       level: level + 1,
       acerto: acerto + acertoGame,
+      curso5: curso5,
     };
 
     acerto + acertoGame > 2 && navigate("/final", { state: userData });
@@ -111,10 +112,7 @@ const Tela3 = () => {
         </div>
       </div>
       <div className="bababoe3 col-10">
-        {/* remover a linha abaixo */}
-        <h1>
-          Usuário: {nickName} | pontuação: {location.state.acerto}
-        </h1>
+       
         <div className="level col-10 d-flex flex-column">
           <h2>NÍVEL:AVANÇADO</h2>
           <div className="levelbar col">

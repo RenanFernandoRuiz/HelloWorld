@@ -19,6 +19,7 @@ const Tela1 = () => {
   const [inputValue, setInputValue] = useState("");
   const [inputValue2, setInputValue2] = useState("");
   const [acerto, setAcerto] = useState(0);
+  // const curso = "HTML5";
   const navigate = useNavigate();
   const [isDisabled1, setIsDisabled1] = useState(false);
   const [isDisabled2, setIsDisabled2] = useState(false);
@@ -35,7 +36,7 @@ const Tela1 = () => {
   const handleInputChange2 = (event) => {
     const valor = event.target.value;
     setInputValue2(valor);
-    if (valor === "button") {
+    if (valor === "<button>") {
       setAcerto(acerto + 1);
       setIsDisabled2(true);
     }
@@ -47,6 +48,7 @@ const Tela1 = () => {
       nickName: "Usuário",
       level: 1,
       acerto: acerto,
+      curso5: "HTML5",
     };
 
     acerto > 0 && navigate("/Jogo2", { state: userData });
@@ -128,7 +130,7 @@ const Tela1 = () => {
               <img src={barrahtml5} alt="" />
             </div>
             <div className="imgtres">
-              function WellDone() {"{"} return &lt;button&gt;Muito
+              function WellDone() {"{"} return &lt;&gt;Muito
               bem!&lt;/button&gt; {"}"}
             </div>
           </div>

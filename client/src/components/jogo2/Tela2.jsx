@@ -17,7 +17,7 @@ import "./Tela2.css";
 
 const Tela2 = () => {
   const location = useLocation();
-  const { userId, nickName, level, acerto } = location.state;
+  const { userId, nickName, level, acerto ,curso5} = location.state;
   const navigate = useNavigate();
   const [acertoGame, setAcertoGame] = useState(0);
 
@@ -50,6 +50,7 @@ const Tela2 = () => {
       nickName: nickName,
       level: level + 1,
       acerto: acerto + acertoGame,
+      curso5: curso5,
     };
 
     acerto + acertoGame > 1 && navigate("/Jogo3", { state: userData });

@@ -11,6 +11,12 @@
     transform: translate(-50%); 
 }
 
+.level-info5 h1{
+  color: #625EFB;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+
 .progress-bar5 {
     width: 100%;
     background: #625efb;
@@ -74,4 +80,9 @@ margin: 1em;
     color: var(--main-color);
   }
 
+  .parabens{
+    color: #625efb;
+    font-weight: 700;
+    margin-top: 2em;
+  }
   
