@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import image1 from "/img/image1.svg";
 import image2 from "/img/image2.svg";
@@ -13,10 +12,19 @@ import telahtml from "../../assets/telahtml.svg";
 import polvo from "../../assets/polvo.svg";
 import barrahtml5 from "../../assets/barrahtml5.svg";
 import fundohtml from "../../assets/fundohtml.svg";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import {
+  Link,
+  useLocation,
+  Navigate,
+  replace,
+  useNavigate,
+} from "react-router-dom";
 import "./NivelFinal.css";
 
 const NivelFinal = () => {
+  const location = useLocation();
+  const { userId, nickName, level, acerto } = location.state;
+  const navigate = useNavigate();
   return (
     <div className="alldnv col-12">
       <div className="barralatera col-2 text-white d-flex">
@@ -69,34 +77,48 @@ const NivelFinal = () => {
           <p>Linguagens</p>
         </div>
       </div>
-      <section className="level-info  col-8">
+      <section className="level-info5  col-8">
         <h1>NÍVEL: COMPLETO!</h1>
-        <div className="levelbar col">
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar">100%</div>
-            </div>
+        <div className="levelbar5 col">
+          <div
+            className="progress"
+            role="progressbar"
+            aria-label="Success example"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div className="progress-bar5">100%</div>
           </div>
+        </div>
         <div className="level-status">
           <div className="octopus-icon">
-            <p>HTML5.html</p>
-            <p>Muito bem! Veremos como foi!</p>
+            <div className="geralhtml d-flex">
+              <img className="imguno" src={polvo} alt="" />
+              <div className="questoeshtml">
+                <div className="imgduno">
+                  <img src={barrahtml5} alt="" />
+                </div>
+                <div className="imgtres5">
+                  <h2>Muito bem! Veremos como foi!</h2>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="level-details">
-          <p>TÍTULO:</p>
-          <p>PONTOS:</p>
-          <p>CURSO:</p>
-        </div>
-        <div className="actions">
-          <button className="start-btn">INÍCIO</button>
-          <button className="next-btn">PRÓXIMO DESAFIO</button>
+          <div className="level-details5">
+            <h2>TÍTULO: {nickName}</h2>
+            <h2>PONTOS: {acerto}</h2>
+            <h2>CURSO:{level}</h2>
+            <p>{userId}</p>
+          </div>
+          <div className="actions">
+            <Link to="/">
+              <button className="start-btn">INÍCIO</button>
+            </Link>
+            <Link to="/cursos">
+              <button className="next-btn">PRÓXIMO DESAFIO</button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>

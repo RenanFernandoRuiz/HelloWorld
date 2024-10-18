@@ -54,7 +54,7 @@ const Tela3 = () => {
       acerto: acerto + acertoGame,
     };
 
-    acerto + acertoGame > 2 && navigate("/FinalLevel", { state: userData });
+    acerto + acertoGame > 2 && navigate("/final", { state: userData });
     // acerto > 0 && navigate("/Jogo2", replace("/"));
   };
 
@@ -175,10 +175,12 @@ const Tela3 = () => {
               />
               <h2></h2>
             </div>
+          
             <button className="butao" onClick={handleGame}>
               {" "}
               MUITO BEM
             </button>
+        
           </div>
         </div>
       </div>

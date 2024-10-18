@@ -3,7 +3,7 @@
     
 }
 
-.level-info{
+.level-info5{
     display: flex;
     flex-direction:column ;
     position: absolute; 
@@ -11,7 +11,67 @@
     transform: translate(-50%); 
 }
 
-.progress-bar2 {
+.progress-bar5 {
     width: 100%;
     background: #625efb;
   }
+
+  .imgtres5{
+    background: #030075;
+    height:7em ;
+    width:38em ;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    
+  }
+
+  .level-details5 h2{
+color: #625efb;
+font-weight: 700;
+margin: 1em;
+  }
+
+  .actions{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3em;
+  }
+
+  .start-btn {
+    height: 5em;
+    width: 15em;
+    background: #7774FD;
+    border-color: #0B4CF2;
+    border-width: 2px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(2, 3, 3, 0.2) 0px 8px 24px;
+    transition: 0.5s ease;
+  }
+
+  .start-btn button:hover {
+    background: var(--cor1);
+    color: var(--main-color);
+  }
+
+  .next-btn{
+    height: 5em;
+    width: 15em;
+    background: #7774FD;
+    border-color: #0B4CF2;
+    border-width: 2px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(2, 3, 3, 0.2) 0px 8px 24px;
+    transition: 0.5s ease;
+  }
+
+  .next-btn button:hover {
+    background: var(--cor1);
+    color: var(--main-color);
+  }
+
+  

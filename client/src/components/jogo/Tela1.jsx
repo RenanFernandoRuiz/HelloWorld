@@ -108,7 +108,7 @@ const Tela1 = () => {
       <div className="bababoe col-10">
         <div className="level col-10 d-flex flex-column">
           <h2>NÍVEL:VARIÁVEL</h2>
-          <div className="levelbar col">
+          <div className="levelbar1 col">
             <div
               className="progress"
               role="progressbar"
@@ -117,7 +117,7 @@ const Tela1 = () => {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar">0%</div>
+              <div className="progress-bar1">0%</div>
             </div>
           </div>
         </div>
